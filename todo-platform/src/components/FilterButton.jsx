@@ -7,6 +7,9 @@ const FilterButton = () => {
                 <option value="COMPLETED">Completed</option>
                 <option value="INCOMPLETE">Incomplete</option>
             </select>
+
+            {/* btn */}
+            <button className="text-sm px-2 py-2 bg-purple-500 text-white ml-2 rounded hover:bg-purple-600 focus:outline-none">Mark All Completed</button>
         </div>
     );
 };
