@@ -1,7 +1,7 @@
 
 const FilterButton = () => {
     return (
-        <div className="flex space-x-4 items-center">
+        <div className="flex justify-between items-center mb-4 md:mb-0">
             <select className="text-sm px-2 py-2 rounded border border-gray-300 focus:outline-none">
                 <option value="ALL">Default</option>
                 <option value="COMPLETED">Completed</option>

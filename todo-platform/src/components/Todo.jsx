@@ -42,9 +42,9 @@ const Todo = () => {
             </div>
 
             {/* filter and search */}
-            <div>
-                <div className="flex items-center justify-between gap-4 mb-4">
-                    <FilterButton />
+            <div className="md:flex md:items-center md:justify-between">
+                <FilterButton />
+                <div className="flex items-center justify-between gap-4">
                     <input value={searchTerm} onChange={(e) => handleSearchChange(e.target.value)} className="flex-grow p-2 border-b-2 border-gray-100 focus:outline-none focus:border-blue-600 rounded" type="text" name="addTodoInput" id="addTodoInput" placeholder="Search" />
                     <button className="p-2 bg-blue-500 text-white hover:bg-blue-600 focus:outline-none text-2xl rounded"><BiSearchAlt2 /></button>
                 </div>
